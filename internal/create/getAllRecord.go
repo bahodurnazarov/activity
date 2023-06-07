@@ -1,0 +1,5 @@
+package create
+
+func GetAllRecord() {
+
+}
