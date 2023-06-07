@@ -23,8 +23,8 @@ func createFile(name string) *os.File {
 }
 
 func init() {
-	info = createFile("../../pkg/logs/server.log")
-	errl = createFile("../../pkg/logs/error.log")
+	info = createFile("../../pkg/log/server.log")
+	errl = createFile("../../pkg/log/error.log")
 
 	Errl = log.New()
 	Server = logg.New(info, "INFO: ", logg.Ldate|logg.Ltime|logg.Lshortfile)

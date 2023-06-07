@@ -1,25 +1,24 @@
-package handler
+package create
 
 import (
 	"github.com/bahodurnazarov/activity/pkg/db"
+	"github.com/bahodurnazarov/activity/pkg/types"
 	lg "github.com/bahodurnazarov/activity/pkg/utils"
 )
 
-func CreateAct() {
+func CreateActCat(act types.Activities) {
 	//activity, activityCategory, participants, price, link, activityKey, accessibility := api.GetFromAPI()
 	//fmt.Println(activity, activityCategory, participants, price, link, activityKey, accessibility)
 	conn := db.Conn()
-
-	query := `create table if not exists act_category(
-	id serial primary key,
-	ac_type varchar(50),
-	created_at timestamp
-	)`
+	query := `create table if not exists categories(
+	id serial PRIMARY KEY,
+	category varchar(50),
+	created_at TIMESTAMP
+ 	)`
 
 	_, err := conn.Exec(query)
 	if err != nil {
-		lg.Errl.Fatalf("error CREATE TABLE: %v", err)
+		lg.Errl.Fatalf("error CREATE ActCat TABLE: %v", err)
 	}
-	//fmt.Println("dfdsf", activityCategory)
-
+	//Insert(act.Type)
 }
