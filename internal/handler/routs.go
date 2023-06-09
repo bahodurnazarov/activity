@@ -10,6 +10,7 @@ func Run() {
 	router := gin.Default()
 	router.Use(cors.CORSMiddleware())
 	router.GET("/", Home)
+	router.DELETE("/delete", DeleteRecord)
 	router.NoRoute(func(c *gin.Context) {
 		c.XML(http.StatusOK, gin.H{"code": "works!", "message": "not route!"})
 	})
