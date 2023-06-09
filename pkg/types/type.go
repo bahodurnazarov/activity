@@ -11,6 +11,7 @@ type Activities struct {
 }
 
 type Response struct {
+	ID            int32
 	Activity      string
 	Category      string
 	Participants  int32

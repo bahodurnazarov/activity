@@ -1,7 +1,6 @@
 package create
 
 import (
-	"fmt"
 	"github.com/bahodurnazarov/activity/pkg/db"
 	"github.com/bahodurnazarov/activity/pkg/types"
 	lg "github.com/bahodurnazarov/activity/pkg/utils"
@@ -22,5 +21,5 @@ func Insert(act types.Activities) {
 	if err != nil {
 		lg.Errl.Println("error INSERT: ", err)
 	}
-	fmt.Printf("%+v\n", resp)
+	lg.Server.Printf("%+v\n", resp)
 }

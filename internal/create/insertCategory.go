@@ -45,5 +45,5 @@ func InsertCategory(act types.Activities) {
 	if err != nil {
 		lg.Errl.Println("error INSERT CATEGORY: ", err)
 	}
-	fmt.Printf("%+v\n", resp)
+	lg.Server.Printf("%+v\n", resp)
 }

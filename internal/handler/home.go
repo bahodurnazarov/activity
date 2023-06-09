@@ -12,7 +12,5 @@ func Home(c *gin.Context) {
 	create.Insert(*act)
 	create.InsertCategory(*act)
 	resp := create.GetAllRecord()
-	c.JSON(http.StatusOK, gin.H{
-		"activity": resp.Activity,
-	})
+	c.JSON(http.StatusOK, resp)
 }

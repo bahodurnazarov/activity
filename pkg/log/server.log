@@ -8,3 +8,5 @@ INFO: 2023/06/06 14:40:43 main.go:12: hello
 INFO: 2023/06/06 14:41:32 main.go:12: hello
 INFO: 2023/06/06 14:53:25 main.go:13: hello
 INFO: 2023/06/06 14:57:02 main.go:13: hello
+INFO: 2023/06/09 11:14:40 insertIntoCtgr.go:24: &{dc:0xc000074360 releaseConn:0x952f00 rowsi:0xc00011b720 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 11:14:40 insertCategory.go:48: &{dc:0xc000074480 releaseConn:0x952f00 rowsi:0xc000288000 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
