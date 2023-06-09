@@ -1,13 +1,12 @@
 package create
 
 import (
-	"fmt"
 	"github.com/bahodurnazarov/activity/pkg/db"
 	"github.com/bahodurnazarov/activity/pkg/types"
 	lg "github.com/bahodurnazarov/activity/pkg/utils"
 )
 
-func GetAllRecord() {
+func GetAllRecord() *types.Response {
 	conn := db.Conn()
 	query := `SELECT e.activity, x.category, e.participants, e.price, e.link, e.ac_key, e.accessibility
 				FROM categories AS x, category_group AS e WHERE x.id = e.category_id`
@@ -22,6 +21,6 @@ func GetAllRecord() {
 		if err != nil {
 			lg.Errl.Println("Panic Scan rows GetAllRecord")
 		}
-		fmt.Println("resp.Price", resp.Price)
 	}
+	return &resp
 }
