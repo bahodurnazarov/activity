@@ -10,3 +10,508 @@ INFO: 2023/06/06 14:53:25 main.go:13: hello
 INFO: 2023/06/06 14:57:02 main.go:13: hello
 INFO: 2023/06/09 11:14:40 insertIntoCtgr.go:24: &{dc:0xc000074360 releaseConn:0x952f00 rowsi:0xc00011b720 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
 INFO: 2023/06/09 11:14:40 insertCategory.go:48: &{dc:0xc000074480 releaseConn:0x952f00 rowsi:0xc000288000 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 13:46:35 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 13:46:35 insertCategory.go:48: &{dc:0xc000516120 releaseConn:0x11f2f00 rowsi:0xc00028a5a0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 13:46:53 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 13:46:53 insertCategory.go:48: &{dc:0xc0005167e0 releaseConn:0x11f2f00 rowsi:0xc0002e2500 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 14:31:14 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 14:31:14 insertCategory.go:48: &{dc:0xc0000b4240 releaseConn:0x1222f00 rowsi:0xc00028cd20 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:10:46 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:10:46 insertCategory.go:48: &{dc:0xc0000d21b0 releaseConn:0x1292f00 rowsi:0xc0000aca00 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:10:54 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:10:54 insertCategory.go:48: &{dc:0xc0000d26c0 releaseConn:0x1292f00 rowsi:0xc0004225a0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:13:06 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:13:06 insertCategory.go:48: &{dc:0xc00018c6c0 releaseConn:0x1292f00 rowsi:0xc0000ac5a0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:13:19 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:13:19 insertCategory.go:48: &{dc:0xc000454000 releaseConn:0x1292f00 rowsi:0xc00061ad20 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:13:21 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:13:21 insertCategory.go:48: &{dc:0xc0004546c0 releaseConn:0x1292f00 rowsi:0xc00061b5e0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:13:22 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:13:22 insertCategory.go:48: &{dc:0xc0004541b0 releaseConn:0x1292f00 rowsi:0xc00061afa0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:15:42 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:15:42 insertCategory.go:48: &{dc:0xc0000d2750 releaseConn:0x1292f00 rowsi:0xc000423860 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:15:44 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:15:44 insertCategory.go:48: &{dc:0xc000454510 releaseConn:0x1292f00 rowsi:0xc0000ad2c0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:15:48 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:15:48 insertCategory.go:48: &{dc:0xc00018c2d0 releaseConn:0x1292f00 rowsi:0xc0004232c0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:16:26 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:16:26 insertCategory.go:48: &{dc:0xc000454990 releaseConn:0x1292f00 rowsi:0xc0000adae0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:16:28 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:16:29 insertCategory.go:48: &{dc:0xc0000d22d0 releaseConn:0x1292f00 rowsi:0xc0001fe5a0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:17:26 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:17:26 insertCategory.go:48: &{dc:0xc00018cf30 releaseConn:0x1292f00 rowsi:0xc0004235e0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:17:28 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:17:28 insertCategory.go:48: &{dc:0xc0000d2870 releaseConn:0x1292f00 rowsi:0xc0001ff0e0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:17:31 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:17:31 insertCategory.go:48: &{dc:0xc000454ab0 releaseConn:0x1292f00 rowsi:0xc0000adae0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:17:47 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:17:48 insertCategory.go:48: &{dc:0xc000454fc0 releaseConn:0x1292f00 rowsi:0xc00061b860 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:18:13 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:18:13 insertCategory.go:48: &{dc:0xc0004555f0 releaseConn:0x1292f00 rowsi:0xc000423ae0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:18:17 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:18:18 insertCategory.go:48: &{dc:0xc0004547e0 releaseConn:0x1292f00 rowsi:0xc00027ec80 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:18:51 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:18:52 insertCategory.go:48: &{dc:0xc00018ccf0 releaseConn:0x1292f00 rowsi:0xc00036cfa0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:30:43 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:30:43 insertCategory.go:48: &{dc:0xc00018cd80 releaseConn:0x1292f00 rowsi:0xc00036dea0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:30:49 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:30:49 insertCategory.go:48: &{dc:0xc000455050 releaseConn:0x1292f00 rowsi:0xc00027f680 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:30:51 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:30:51 insertCategory.go:48: &{dc:0xc00018d710 releaseConn:0x1292f00 rowsi:0xc000000460 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:30:53 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:30:53 insertCategory.go:48: &{dc:0xc00018cc60 releaseConn:0x1292f00 rowsi:0xc00027f400 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:30:55 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:30:55 insertCategory.go:48: &{dc:0xc000454c60 releaseConn:0x1292f00 rowsi:0xc0001feaa0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:30:56 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:30:57 insertCategory.go:48: &{dc:0xc000455440 releaseConn:0x1292f00 rowsi:0xc00061ba40 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:30:59 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:31:00 insertCategory.go:48: &{dc:0xc0004553b0 releaseConn:0x1292f00 rowsi:0xc00036cfa0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:31:11 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:31:11 insertCategory.go:48: &{dc:0xc000455b00 releaseConn:0x1292f00 rowsi:0xc0001feaa0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:31:54 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:31:54 insertCategory.go:48: &{dc:0xc0000d2510 releaseConn:0x1292f00 rowsi:0xc0003b0e60 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:31:58 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:31:58 insertCategory.go:48: &{dc:0xc0004557a0 releaseConn:0x1292f00 rowsi:0xc00039c780 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:32:02 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:32:02 insertCategory.go:48: &{dc:0xc0000d2bd0 releaseConn:0x1292f00 rowsi:0xc00036d220 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:32:03 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:32:03 insertCategory.go:48: &{dc:0xc000455e60 releaseConn:0x1292f00 rowsi:0xc00039dcc0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:32:07 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:32:07 insertCategory.go:48: &{dc:0xc0007841b0 releaseConn:0x1292f00 rowsi:0xc0003cb180 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:32:14 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:32:14 insertCategory.go:48: &{dc:0xc000784750 releaseConn:0x1292f00 rowsi:0xc00036d220 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:32:17 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:32:39 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:32:42 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:32:45 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:32:50 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:33:13 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:33:28 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:33:47 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:34:03 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:34:11 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:34:14 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:35:51 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:35:55 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:35:56 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:36:22 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:37:28 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:37:31 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:37:37 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:37:39 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:37:41 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:37:44 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:37:46 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:37:47 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:37:49 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:38:10 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:38:11 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:38:12 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:38:49 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:38:49 insertCategory.go:48: &{dc:0xc00046a360 releaseConn:0xc82f00 rowsi:0xc000001680 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:38:55 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:38:55 insertCategory.go:48: &{dc:0xc0005b0480 releaseConn:0xc82f00 rowsi:0xc0001ff360 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:38:55 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:38:56 insertCategory.go:48: &{dc:0xc00046a000 releaseConn:0xc82f00 rowsi:0xc000398500 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:38:59 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:38:59 insertCategory.go:48: &{dc:0xc0005b06c0 releaseConn:0xc82f00 rowsi:0xc00036d720 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:39:27 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:39:27 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:39:27 insertCategory.go:48: &{dc:0xc0005b0120 releaseConn:0xc82f00 rowsi:0xc00041e5a0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:39:27 insertCategory.go:48: &{dc:0xc00046a2d0 releaseConn:0xc82f00 rowsi:0xc000399a40 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:39:31 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:39:31 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:39:31 insertCategory.go:48: &{dc:0xc00046a480 releaseConn:0xc82f00 rowsi:0xc00027e500 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:39:31 insertCategory.go:48: &{dc:0xc00018c1b0 releaseConn:0xc82f00 rowsi:0xc0001febe0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:39:38 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:39:38 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:39:38 insertCategory.go:48: &{dc:0xc00046a3f0 releaseConn:0xc82f00 rowsi:0xc000001540 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:39:38 insertCategory.go:48: &{dc:0xc00046a870 releaseConn:0xc82f00 rowsi:0xc000001e00 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:39:48 insertIntoCtgr.go:24: &{dc:0xc00018c5a0 releaseConn:0xc82f00 rowsi:0xc0001ffae0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:39:48 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:39:48 insertCategory.go:48: &{dc:0xc00046a750 releaseConn:0xc82f00 rowsi:0xc00036d9a0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:39:48 insertCategory.go:48: &{dc:0xc0005b01b0 releaseConn:0xc82f00 rowsi:0xc0003b2be0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:39:52 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:39:52 insertCategory.go:48: &{dc:0xc00046a7e0 releaseConn:0xc82f00 rowsi:0xc00027f040 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:39:54 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:39:54 insertCategory.go:48: &{dc:0xc0005b0870 releaseConn:0xc82f00 rowsi:0xc0003b2be0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:39:54 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:39:54 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:39:54 insertCategory.go:48: &{dc:0xc00046ab40 releaseConn:0xc82f00 rowsi:0xc0003b34a0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:39:54 insertCategory.go:48: &{dc:0xc00046ad80 releaseConn:0xc82f00 rowsi:0xc000000d20 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:39:55 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:39:56 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:39:56 insertCategory.go:48: &{dc:0xc00046a6c0 releaseConn:0xc82f00 rowsi:0xc00041f2c0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:39:56 insertCategory.go:48: &{dc:0xc00046abd0 releaseConn:0xc82f00 rowsi:0xc0003b35e0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:39:59 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:39:59 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:40:00 insertCategory.go:48: &{dc:0xc00018cab0 releaseConn:0xc82f00 rowsi:0xc0003c83c0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:40:00 insertCategory.go:48: &{dc:0xc0005b0bd0 releaseConn:0xc82f00 rowsi:0xc00036ce60 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:40:02 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:40:02 insertCategory.go:48: &{dc:0xc00046aa20 releaseConn:0xc82f00 rowsi:0xc0003c8640 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:40:02 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:40:02 insertCategory.go:48: &{dc:0xc00046acf0 releaseConn:0xc82f00 rowsi:0xc0003c92c0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:40:03 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:40:03 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:40:03 insertCategory.go:48: &{dc:0xc00046b320 releaseConn:0xc82f00 rowsi:0xc000402140 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:40:04 insertCategory.go:48: &{dc:0xc00046b4d0 releaseConn:0xc82f00 rowsi:0xc000402280 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:40:05 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:40:05 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:40:05 insertCategory.go:48: &{dc:0xc00018d290 releaseConn:0xc82f00 rowsi:0xc0003c9b80 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:40:05 insertCategory.go:48: &{dc:0xc00018d440 releaseConn:0xc82f00 rowsi:0xc0003b35e0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:40:08 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:40:08 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:40:08 insertCategory.go:48: &{dc:0xc00018d320 releaseConn:0xc82f00 rowsi:0xc000403540 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:40:08 insertCategory.go:48: &{dc:0xc00018d560 releaseConn:0xc82f00 rowsi:0xc000403f40 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:40:10 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:40:10 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:40:10 insertCategory.go:48: &{dc:0xc0005b0d80 releaseConn:0xc82f00 rowsi:0xc000756500 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:40:10 insertCategory.go:48: &{dc:0xc0005b1200 releaseConn:0xc82f00 rowsi:0xc000756a00 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:40:17 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:40:17 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:40:17 insertCategory.go:48: &{dc:0xc0005b1950 releaseConn:0xc82f00 rowsi:0xc000757b80 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:40:17 insertCategory.go:48: &{dc:0xc00046b290 releaseConn:0xc82f00 rowsi:0xc0003c9cc0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 15:40:57 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:40:57 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:41:00 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:41:00 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:41:03 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:41:03 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:41:10 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:41:10 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:41:18 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:41:56 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:42:15 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 15:42:15 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:03:38 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:03:38 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:03:39 insertCategory.go:48: &{dc:0xc0000d0000 releaseConn:0x812f00 rowsi:0xc000000dc0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:03:39 insertCategory.go:48: &{dc:0xc0000d0240 releaseConn:0x812f00 rowsi:0xc000001ae0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:03:39 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:03:39 insertCategory.go:48: &{dc:0xc0004c4120 releaseConn:0x812f00 rowsi:0xc000428640 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:04:32 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:04:32 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:04:33 insertCategory.go:48: &{dc:0xc00017c630 releaseConn:0x812f00 rowsi:0xc0001fda40 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:04:33 insertCategory.go:48: &{dc:0xc00017c7e0 releaseConn:0x812f00 rowsi:0xc0000c1040 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:04:57 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:04:57 insertCategory.go:48: &{dc:0xc00017c240 releaseConn:0x812f00 rowsi:0xc0000c1040 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:05:12 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:05:12 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:05:12 insertCategory.go:48: &{dc:0xc0004c4360 releaseConn:0x812f00 rowsi:0xc000429540 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:05:12 insertCategory.go:48: &{dc:0xc0004c46c0 releaseConn:0x812f00 rowsi:0xc000429c20 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:07:54 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:07:54 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:07:54 insertCategory.go:48: &{dc:0xc0000d0d80 releaseConn:0x812f00 rowsi:0xc0001fcdc0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:07:54 insertCategory.go:48: &{dc:0xc0004c4480 releaseConn:0x812f00 rowsi:0xc00028d720 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:08:03 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:08:04 insertCategory.go:48: &{dc:0xc00017c870 releaseConn:0x812f00 rowsi:0xc00028dae0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:08:19 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:08:19 insertCategory.go:48: &{dc:0xc00017c750 releaseConn:0x812f00 rowsi:0xc0000c15e0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:08:19 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:08:19 insertCategory.go:48: &{dc:0xc00017cab0 releaseConn:0x812f00 rowsi:0xc0000c1d60 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:08:21 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:08:21 insertCategory.go:48: &{dc:0xc0000d0b40 releaseConn:0x812f00 rowsi:0xc000429cc0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:08:22 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:08:22 insertCategory.go:48: &{dc:0xc0000d01b0 releaseConn:0x812f00 rowsi:0xc000376780 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:08:34 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:08:34 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:08:34 insertCategory.go:48: &{dc:0xc0000d1050 releaseConn:0x812f00 rowsi:0xc0001fde00 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:08:34 insertCategory.go:48: &{dc:0xc0000d0750 releaseConn:0x812f00 rowsi:0xc0000c1ae0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:08:38 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:08:38 insertCategory.go:48: &{dc:0xc0004c4c60 releaseConn:0x812f00 rowsi:0xc0003ab9a0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:08:38 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:08:38 insertCategory.go:48: &{dc:0xc0004c5050 releaseConn:0x812f00 rowsi:0xc0003777c0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:08:49 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:08:49 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:08:49 insertCategory.go:48: &{dc:0xc00017d290 releaseConn:0x812f00 rowsi:0xc0003bd400 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:08:49 insertCategory.go:48: &{dc:0xc0000d05a0 releaseConn:0x812f00 rowsi:0xc00028d9a0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:08:49 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:08:50 insertCategory.go:48: &{dc:0xc000478120 releaseConn:0x812f00 rowsi:0xc0003aaaa0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:09:17 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:09:17 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:09:17 insertCategory.go:48: &{dc:0xc00017cfc0 releaseConn:0x812f00 rowsi:0xc0001fd180 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:09:18 insertCategory.go:48: &{dc:0xc00017d320 releaseConn:0x812f00 rowsi:0xc0004295e0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:09:25 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:09:25 insertCategory.go:48: &{dc:0xc000478750 releaseConn:0x812f00 rowsi:0xc0003d85a0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:09:28 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:09:28 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:09:28 insertCategory.go:48: &{dc:0xc00017d950 releaseConn:0x812f00 rowsi:0xc0003d9c20 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:09:28 insertCategory.go:48: &{dc:0xc0004c4a20 releaseConn:0x812f00 rowsi:0xc0003bd540 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:09:29 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:09:29 insertCategory.go:48: &{dc:0xc000478090 releaseConn:0x812f00 rowsi:0xc0003763c0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:09:40 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:09:40 insertCategory.go:48: &{dc:0xc0000d0ab0 releaseConn:0x812f00 rowsi:0xc0003bcdc0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:09:41 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:09:41 insertCategory.go:48: &{dc:0xc0004c5440 releaseConn:0x812f00 rowsi:0xc0003d9360 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:09:45 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:09:46 insertCategory.go:48: &{dc:0xc00017cc60 releaseConn:0x812f00 rowsi:0xc0003ee500 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:09:46 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:09:46 insertCategory.go:48: &{dc:0xc0004c5200 releaseConn:0x812f00 rowsi:0xc000429cc0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:09:57 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:09:57 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:10:02 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:10:02 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:10:05 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:10:05 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:10:07 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:10:16 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:10:18 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:10:34 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:10:34 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:10:52 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:10:52 insertCategory.go:48: &{dc:0xc0004c8240 releaseConn:0xe02f00 rowsi:0xc0004b2820 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:11:45 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:11:45 insertCategory.go:48: &{dc:0xc00017c1b0 releaseConn:0xe02f00 rowsi:0xc0004b26e0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:11:45 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:11:45 insertCategory.go:48: &{dc:0xc0004c81b0 releaseConn:0xe02f00 rowsi:0xc00042afa0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:11:48 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:11:48 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:11:48 insertCategory.go:48: &{dc:0xc00017c7e0 releaseConn:0xe02f00 rowsi:0xc00042b900 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:11:48 insertCategory.go:48: &{dc:0xc0004c8750 releaseConn:0xe02f00 rowsi:0xc0000a3400 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:11:50 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:11:51 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:11:51 insertCategory.go:48: &{dc:0xc0000746c0 releaseConn:0xe02f00 rowsi:0xc0000a3c20 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:11:51 insertCategory.go:48: &{dc:0xc00017c240 releaseConn:0xe02f00 rowsi:0xc0004b2820 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:11:53 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:11:53 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:11:53 insertCategory.go:48: &{dc:0xc00017c2d0 releaseConn:0xe02f00 rowsi:0xc0004b2aa0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:11:54 insertCategory.go:48: &{dc:0xc00017c900 releaseConn:0xe02f00 rowsi:0xc0004b30e0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:12:03 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:12:04 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:12:04 insertCategory.go:48: &{dc:0xc00017c990 releaseConn:0xe02f00 rowsi:0xc0004b3040 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:12:04 insertCategory.go:48: &{dc:0xc00017cb40 releaseConn:0xe02f00 rowsi:0xc0004b3720 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:12:09 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:12:09 insertCategory.go:48: &{dc:0xc00017c870 releaseConn:0xe02f00 rowsi:0xc0004b30e0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:12:19 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:12:19 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:12:19 insertCategory.go:48: &{dc:0xc00017cea0 releaseConn:0xe02f00 rowsi:0xc0004b3e00 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:12:19 insertCategory.go:48: &{dc:0xc000074630 releaseConn:0xe02f00 rowsi:0xc0000a3360 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:16:08 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:16:08 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:16:08 insertCategory.go:48: &{dc:0xc0004c9050 releaseConn:0xe02f00 rowsi:0xc0004b3360 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:16:09 insertCategory.go:48: &{dc:0xc0004c9200 releaseConn:0xe02f00 rowsi:0xc0004b3d60 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:16:27 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:16:28 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:16:28 insertCategory.go:48: &{dc:0xc0004c8f30 releaseConn:0xe02f00 rowsi:0xc0003763c0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:16:28 insertCategory.go:48: &{dc:0xc00017cab0 releaseConn:0xe02f00 rowsi:0xc000000f00 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:16:28 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:16:29 insertCategory.go:48: &{dc:0xc0004c9290 releaseConn:0xe02f00 rowsi:0xc000377a40 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:16:29 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:16:29 insertCategory.go:48: &{dc:0xc0004c95f0 releaseConn:0xe02f00 rowsi:0xc0001fd2c0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:16:32 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:16:32 insertCategory.go:48: &{dc:0xc0004c9950 releaseConn:0xe02f00 rowsi:0xc0000a3ea0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:17:03 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:17:03 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:17:03 insertCategory.go:48: &{dc:0xc0004c90e0 releaseConn:0xe02f00 rowsi:0xc0003777c0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:17:03 insertCategory.go:48: &{dc:0xc0004c9170 releaseConn:0xe02f00 rowsi:0xc000001360 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:17:18 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:17:18 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:17:18 insertCategory.go:48: &{dc:0xc0004c9320 releaseConn:0xe02f00 rowsi:0xc00028d720 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:17:18 insertCategory.go:48: &{dc:0xc0004c9680 releaseConn:0xe02f00 rowsi:0xc000001720 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:17:27 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:17:27 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:17:27 insertCategory.go:48: &{dc:0xc000074900 releaseConn:0xe02f00 rowsi:0xc0003a2820 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:17:27 insertCategory.go:48: &{dc:0xc0004c8480 releaseConn:0xe02f00 rowsi:0xc0004b3040 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:17:31 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:17:31 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:17:31 insertCategory.go:48: &{dc:0xc0004c98c0 releaseConn:0xe02f00 rowsi:0xc0001fd400 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:17:31 insertCategory.go:48: &{dc:0xc000075440 releaseConn:0xe02f00 rowsi:0xc00028d720 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:17:43 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:17:44 insertCategory.go:48: &{dc:0xc00017d050 releaseConn:0xe02f00 rowsi:0xc0003ba640 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:17:44 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:17:44 insertCategory.go:48: &{dc:0xc000268120 releaseConn:0xe02f00 rowsi:0xc0003d50e0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:17:46 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:17:46 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:17:46 insertCategory.go:48: &{dc:0xc00017d4d0 releaseConn:0xe02f00 rowsi:0xc00028c460 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:17:58 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:17:58 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:18:07 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:18:07 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:18:10 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:18:10 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:18:13 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:18:13 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:18:46 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:18:46 insertCategory.go:48: &{dc:0xc0004a4240 releaseConn:0x1172f00 rowsi:0xc000001b80 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:19:53 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:19:53 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:19:53 insertCategory.go:48: &{dc:0xc0004a4360 releaseConn:0x1172f00 rowsi:0xc0002370e0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:19:53 insertCategory.go:48: &{dc:0xc0000a0000 releaseConn:0x1172f00 rowsi:0xc00042a5a0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:19:59 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:19:59 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:19:59 insertCategory.go:48: &{dc:0xc0000a0090 releaseConn:0x1172f00 rowsi:0xc00042a820 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:19:59 insertCategory.go:48: &{dc:0xc0000a02d0 releaseConn:0x1172f00 rowsi:0xc00042b7c0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:20:01 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:20:01 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:20:01 insertCategory.go:48: &{dc:0xc0000a0120 releaseConn:0x1172f00 rowsi:0xc00042af00 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:20:01 insertCategory.go:48: &{dc:0xc0000a0480 releaseConn:0x1172f00 rowsi:0xc00042b900 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:20:11 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:20:11 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:20:11 insertCategory.go:48: &{dc:0xc0000a0750 releaseConn:0x1172f00 rowsi:0xc00042b900 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:20:11 insertCategory.go:48: &{dc:0xc0000a0900 releaseConn:0x1172f00 rowsi:0xc00049af00 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:20:21 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:20:21 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:20:21 insertCategory.go:48: &{dc:0xc00017c630 releaseConn:0x1172f00 rowsi:0xc00037a820 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:20:21 insertCategory.go:48: &{dc:0xc00017c870 releaseConn:0x1172f00 rowsi:0xc00037b0e0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:20:23 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:20:23 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:20:23 insertCategory.go:48: &{dc:0xc000556240 releaseConn:0x1172f00 rowsi:0xc00049b220 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:20:23 insertCategory.go:48: &{dc:0xc0004a4870 releaseConn:0x1172f00 rowsi:0xc00028d040 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:20:25 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:20:25 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:20:26 insertCategory.go:48: &{dc:0xc000556480 releaseConn:0x1172f00 rowsi:0xc00049bea0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:20:26 insertCategory.go:48: &{dc:0xc00017c360 releaseConn:0x1172f00 rowsi:0xc00037aaa0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:20:32 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:20:32 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:20:32 insertCategory.go:48: &{dc:0xc00017d290 releaseConn:0x1172f00 rowsi:0xc00049bf40 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:20:32 insertCategory.go:48: &{dc:0xc000556090 releaseConn:0x1172f00 rowsi:0xc00049b7c0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:20:34 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:20:34 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:20:34 insertCategory.go:48: &{dc:0xc00017cf30 releaseConn:0x1172f00 rowsi:0xc00042bea0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:20:34 insertCategory.go:48: &{dc:0xc00017d3b0 releaseConn:0x1172f00 rowsi:0xc000001e00 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:20:36 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:20:37 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:20:37 insertCategory.go:48: &{dc:0xc000556120 releaseConn:0x1172f00 rowsi:0xc0003aef00 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:20:37 insertCategory.go:48: &{dc:0xc0005561b0 releaseConn:0x1172f00 rowsi:0xc0003ae780 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:20:47 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:20:47 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:20:47 insertCategory.go:48: &{dc:0xc0004a4d80 releaseConn:0x1172f00 rowsi:0xc00042bea0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:20:47 insertCategory.go:48: &{dc:0xc000556a20 releaseConn:0x1172f00 rowsi:0xc0003be1e0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:20:49 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:20:49 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:20:49 insertCategory.go:48: &{dc:0xc00017c2d0 releaseConn:0x1172f00 rowsi:0xc00049b9a0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:20:49 insertCategory.go:48: &{dc:0xc00017d170 releaseConn:0x1172f00 rowsi:0xc0003d2f00 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:20:50 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:20:50 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:20:50 insertCategory.go:48: &{dc:0xc000557200 releaseConn:0x1172f00 rowsi:0xc000000e60 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:20:50 insertCategory.go:48: &{dc:0xc0004a4bd0 releaseConn:0x1172f00 rowsi:0xc0003aedc0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:21:41 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:21:41 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:21:42 insertCategory.go:48: &{dc:0xc00017c7e0 releaseConn:0x1172f00 rowsi:0xc00049bea0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:21:42 insertCategory.go:48: &{dc:0xc00017d320 releaseConn:0x1172f00 rowsi:0xc0003bf4a0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:21:46 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:21:46 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:21:46 insertCategory.go:48: &{dc:0xc000556630 releaseConn:0x1172f00 rowsi:0xc00028d7c0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:21:46 insertCategory.go:48: &{dc:0xc000556d80 releaseConn:0x1172f00 rowsi:0xc000001b80 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:21:51 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:21:52 insertCategory.go:48: &{dc:0xc000557050 releaseConn:0x1172f00 rowsi:0xc0003f20a0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:21:52 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:21:54 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:21:54 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:21:57 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:21:57 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:22:03 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:22:04 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:22:08 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:22:08 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:22:27 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:22:27 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:24:16 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:24:16 insertCategory.go:48: &{dc:0xc00008a1b0 releaseConn:0xcb2f00 rowsi:0xc000001360 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:24:45 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:24:46 insertCategory.go:48: &{dc:0xc0004a81b0 releaseConn:0xcb2f00 rowsi:0xc00042bcc0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:25:26 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:25:26 insertCategory.go:48: &{dc:0xc0004a8510 releaseConn:0xcb2f00 rowsi:0xc0001fd400 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:25:26 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:25:26 insertCategory.go:48: &{dc:0xc00017c480 releaseConn:0xcb2f00 rowsi:0xc000376000 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:25:28 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:25:28 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:25:28 insertCategory.go:48: &{dc:0xc00017cab0 releaseConn:0xcb2f00 rowsi:0xc000377180 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:25:28 insertCategory.go:48: &{dc:0xc0000b6120 releaseConn:0xcb2f00 rowsi:0xc000376280 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:25:42 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:25:42 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:25:43 insertCategory.go:48: &{dc:0xc00017cbd0 releaseConn:0xcb2f00 rowsi:0xc00042bc20 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:25:43 insertCategory.go:48: &{dc:0xc0000b63f0 releaseConn:0xcb2f00 rowsi:0xc0003a4d20 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:25:47 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:25:47 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:25:47 insertCategory.go:48: &{dc:0xc0000b6000 releaseConn:0xcb2f00 rowsi:0xc0003a5220 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:25:47 insertCategory.go:48: &{dc:0xc0004a86c0 releaseConn:0xcb2f00 rowsi:0xc00042bcc0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:26:01 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:26:01 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:26:01 insertCategory.go:48: &{dc:0xc00017c990 releaseConn:0xcb2f00 rowsi:0xc000376c80 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:26:01 insertCategory.go:48: &{dc:0xc0000b6900 releaseConn:0xcb2f00 rowsi:0xc00028dd60 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:26:24 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:26:24 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:26:24 insertCategory.go:48: &{dc:0xc0000b61b0 releaseConn:0xcb2f00 rowsi:0xc00042be00 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:26:24 insertCategory.go:48: &{dc:0xc0000b6360 releaseConn:0xcb2f00 rowsi:0xc00028d4a0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:26:48 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:26:48 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:26:49 insertCategory.go:48: &{dc:0xc00017cea0 releaseConn:0xcb2f00 rowsi:0xc0003b8b40 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:26:49 insertCategory.go:48: &{dc:0xc0004a8750 releaseConn:0xcb2f00 rowsi:0xc0001fd900 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:26:53 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:26:53 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:26:53 insertCategory.go:48: &{dc:0xc0000b6750 releaseConn:0xcb2f00 rowsi:0xc000377400 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:26:53 insertCategory.go:48: &{dc:0xc0000b62d0 releaseConn:0xcb2f00 rowsi:0xc00042bf40 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:26:54 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:26:54 insertCategory.go:48: &{dc:0xc00017d0e0 releaseConn:0xcb2f00 rowsi:0xc0001fdcc0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:26:54 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:26:54 insertCategory.go:48: &{dc:0xc0004a85a0 releaseConn:0xcb2f00 rowsi:0xc0003ceaa0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:29:49 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:29:49 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:29:49 insertCategory.go:48: &{dc:0xc00017d7a0 releaseConn:0xcb2f00 rowsi:0xc000377400 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:29:49 insertCategory.go:48: &{dc:0xc0004a8e10 releaseConn:0xcb2f00 rowsi:0xc00028d0e0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:30:02 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:30:02 insertCategory.go:48: &{dc:0xc0004a9170 releaseConn:0xcb2f00 rowsi:0xc0003eab40 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:30:03 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:30:03 insertCategory.go:48: &{dc:0xc0000b6d80 releaseConn:0xcb2f00 rowsi:0xc0003eb7c0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:30:09 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:30:09 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:30:09 insertCategory.go:48: &{dc:0xc00017ccf0 releaseConn:0xcb2f00 rowsi:0xc00040a820 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:30:09 insertCategory.go:48: &{dc:0xc00017cf30 releaseConn:0xcb2f00 rowsi:0xc00040b360 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:30:15 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:30:15 insertCategory.go:48: &{dc:0xc0000b6a20 releaseConn:0xcb2f00 rowsi:0xc0003eab40 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:30:26 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:30:26 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:30:26 insertCategory.go:48: &{dc:0xc0004a93b0 releaseConn:0xcb2f00 rowsi:0xc00040b360 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:30:26 insertCategory.go:48: &{dc:0xc0004a9560 releaseConn:0xcb2f00 rowsi:0xc00079e460 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:30:29 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:30:29 insertCategory.go:48: &{dc:0xc00017ce10 releaseConn:0xcb2f00 rowsi:0xc00079edc0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:32:48 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:32:48 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:32:49 insertCategory.go:48: &{dc:0xc00017d320 releaseConn:0xcb2f00 rowsi:0xc00079f5e0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:32:49 insertCategory.go:48: &{dc:0xc0004a9d40 releaseConn:0xcb2f00 rowsi:0xc0003eaf00 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:33:14 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:33:14 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:33:16 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:33:16 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:33:20 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:33:20 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:33:23 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:33:23 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:33:25 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:33:25 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:33:32 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:33:32 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:33:34 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:33:52 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:33:52 insertCategory.go:48: &{dc:0xc00015c6c0 releaseConn:0x8c2f00 rowsi:0xc0001fe820 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:34:14 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:34:14 insertCategory.go:48: &{dc:0xc00041e120 releaseConn:0x8c2f00 rowsi:0xc000266b40 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:34:14 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:34:14 insertCategory.go:48: &{dc:0xc00015c240 releaseConn:0x8c2f00 rowsi:0xc0001fee60 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:34:16 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:34:16 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:34:16 insertCategory.go:48: &{dc:0xc0004a0510 releaseConn:0x8c2f00 rowsi:0xc0003f1ea0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:34:16 insertCategory.go:48: &{dc:0xc0004a0750 releaseConn:0x8c2f00 rowsi:0xc00033e820 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:34:18 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:34:18 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:34:19 insertCategory.go:48: &{dc:0xc00041e5a0 releaseConn:0x8c2f00 rowsi:0xc000267a40 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:34:19 insertCategory.go:48: &{dc:0xc00041e6c0 releaseConn:0x8c2f00 rowsi:0xc00033f360 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:34:28 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:34:28 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:34:28 insertCategory.go:48: &{dc:0xc00041e900 releaseConn:0x8c2f00 rowsi:0xc0003f0460 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:34:28 insertCategory.go:48: &{dc:0xc00041eab0 releaseConn:0x8c2f00 rowsi:0xc000368140 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:34:34 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:34:34 insertCategory.go:48: &{dc:0xc00015c900 releaseConn:0x8c2f00 rowsi:0xc0001ffc20 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:41:01 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:41:01 insertCategory.go:48: &{dc:0xc000076120 releaseConn:0xc22f00 rowsi:0xc000282640 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:41:02 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:41:02 insertCategory.go:48: &{dc:0xc000076480 releaseConn:0xc22f00 rowsi:0xc000283540 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:41:21 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:41:21 insertCategory.go:48: &{dc:0xc000070480 releaseConn:0xd42f00 rowsi:0xc0003f1040 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:42:44 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:42:44 insertCategory.go:48: &{dc:0xc00017c3f0 releaseConn:0xa92f00 rowsi:0xc000497900 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:43:22 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:43:23 insertCategory.go:48: &{dc:0xc0000b2870 releaseConn:0xa92f00 rowsi:0xc000427180 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}
+INFO: 2023/06/09 17:43:23 insertIntoCtgr.go:24: <nil>
+INFO: 2023/06/09 17:43:23 insertCategory.go:48: &{dc:0xc0000b2000 releaseConn:0xa92f00 rowsi:0xc0004265a0 cancel:<nil> closeStmt:<nil> closemu:{w:{state:0 sema:0} writerSem:0 readerSem:0 readerCount:0 readerWait:0} closed:false lasterr:<nil> lastcols:[]}

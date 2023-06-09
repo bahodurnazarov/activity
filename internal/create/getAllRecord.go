@@ -9,7 +9,7 @@ import (
 func GetAllRecord() []types.Response {
 	conn := db.Conn()
 	query := `SELECT e.id, e.activity, x.category, e.participants, e.price, e.link, e.ac_key, e.accessibility
-				FROM categories AS x, category_group AS e WHERE x.id = e.category_id`
+				FROM categories AS x, category_group AS e WHERE x.id = e.category_id order by e.id desc limit 10`
 	rows, err := conn.Query(query)
 	if err != nil {
 		lg.Errl.Println("Panic Query query")
