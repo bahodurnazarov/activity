@@ -60,6 +60,14 @@ func Login(c *gin.Context) {
 		return
 	}
 
+	currentTime := time.Now()
+	time_stamp := currentTime.Format("2006.01.02 15:04")
+	_, err = conn.Exec("INSERT INTO users_token (token, created_at, user_id) VALUES ($1, $2, $3)", tokenString, time_stamp, userID)
+	if err != nil {
+		c.AbortWithStatusJSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+		return
+	}
+
 	// Return the JWT token to the client
 	c.JSON(http.StatusOK, gin.H{"token": tokenString})
 }

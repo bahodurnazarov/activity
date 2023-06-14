@@ -48,5 +48,29 @@ func Register(c *gin.Context) {
 		return
 	}
 
-	c.JSON(http.StatusOK, gin.H{"message": "User registered successfully"})
+	//// Create a new session and return the session ID to the client
+	//sessionID, err := createSession(user.ID)
+	//if err != nil {
+	//	c.JSON(http.StatusInternalServerError, gin.H{"error": "Could not create session"})
+	//	return
+	//}
+	//
+	//// Generate a new access token and refresh token and return them to the client
+	//accessToken, err := generateAccessToken(user.ID)
+	//if err != nil {
+	//	c.JSON(http.StatusInternalServerError, gin.H{"error": "Could not generate access token"})
+	//	return
+	//}
+	//refreshToken, err := generateRefreshToken(user.ID)
+	//if err != nil {
+	//	c.JSON(http.StatusInternalServerError, gin.H{"error": "Could not generate refresh token"})
+	//	return
+	//}
+
+	c.JSON(http.StatusOK, gin.H{
+		"message": "User registered successfully",
+		//"session_id":    sessionID,
+		//"access_token":  accessToken,
+		//"refresh_token": refreshToken,
+	})
 }
