@@ -3,16 +3,23 @@ package handler
 import (
 	"github.com/bahodurnazarov/activity/pkg/cors"
 	"github.com/gin-gonic/gin"
+	ginSwagger "github.com/swaggo/gin-swagger"
+	"github.com/swaggo/gin-swagger/swaggerFiles"
 	"net/http"
+
+	_ "github.com/bahodurnazarov/activity/docs"
 )
 
 func Run() {
-	router := gin.Default()
-	router.Use(cors.CORSMiddleware())
-	router.GET("/", Home)
-	router.DELETE("/delete/:id", DeleteRecord)
-	router.NoRoute(func(c *gin.Context) {
+	r := gin.Default()
+	r.Use(cors.CORSMiddleware())
+	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
+	r.GET("/", Home)
+	r.POST("/register", Register)
+	r.POST("/login", Login)
+	r.DELETE("/delete/:id", DeleteRecord)
+	r.NoRoute(func(c *gin.Context) {
 		c.XML(http.StatusOK, gin.H{"code": "works!", "message": "not route!"})
 	})
-	router.Run(":8888")
+	r.Run(":8888")
 }

@@ -3,6 +3,7 @@ package db
 import (
 	"database/sql"
 	"fmt"
+	"github.com/jinzhu/gorm"
 	"log"
 	"os"
 
@@ -11,8 +12,9 @@ import (
 	_ "github.com/lib/pq" // add this
 )
 
-func Conn() *sql.DB {
+var DB *gorm.DB
 
+func Conn() *sql.DB {
 	err := godotenv.Load("../../.env")
 	if err != nil {
 		log.Fatal("Error loading .env file")
