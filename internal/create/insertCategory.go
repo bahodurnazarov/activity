@@ -43,7 +43,7 @@ func InsertCategory(act types.Activities) {
 		time_stamp,
 		categoryID)
 	if err != nil {
-		lg.Errl.Println("error INSERT CATEGORY: ", err)
+		lg.Errl.Println("error INSERT CATEGORY: InsertCategory", err)
 	}
 	lg.Server.Printf("%+v\n", resp)
 }
