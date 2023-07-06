@@ -19,7 +19,7 @@ func Insert(act types.Activities) {
 		act.Type,
 		time_stamp)
 	if err != nil {
-		lg.Errl.Println("error INSERT: ", err)
+		lg.Errl.Println("error INSERT: Insert ", err)
 	}
 	lg.Server.Printf("%+v\n", resp)
 }

@@ -14,7 +14,10 @@ func Register(c *gin.Context) {
 	var user types.User
 	err := c.BindJSON(&user)
 	if err != nil {
-		c.JSON(http.StatusBadRequest, gin.H{"error": "Invalid request body"})
+		c.JSON(http.StatusBadRequest, gin.H{
+			"errorCode": 400,
+			"error":     "Invalid request body",
+		})
 		return
 	}
 
@@ -23,18 +26,27 @@ func Register(c *gin.Context) {
 	var count int
 	err1 := conn.QueryRow("SELECT COUNT(*) FROM users WHERE email = $1", user.Email).Scan(&count)
 	if err1 != nil {
-		c.AbortWithStatusJSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+		c.AbortWithStatusJSON(http.StatusInternalServerError, gin.H{
+			"errorCode": 500,
+			"error":     err.Error(),
+		})
 		return
 	}
 	if count > 0 {
-		c.AbortWithStatusJSON(http.StatusBadRequest, gin.H{"error": "email already exists"})
+		c.AbortWithStatusJSON(http.StatusBadRequest, gin.H{
+			"errorCode": 400,
+			"error":     "email already exists",
+		})
 		return
 	}
 
 	// Hash the password
 	hashedPassword, err := bcrypt.GenerateFromPassword([]byte(user.Password), bcrypt.DefaultCost)
 	if err != nil {
-		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to hash password"})
+		c.JSON(http.StatusInternalServerError, gin.H{
+			"errorCode": 500,
+			"error":     "Failed to hash password",
+		})
 		return
 	}
 
@@ -44,7 +56,10 @@ func Register(c *gin.Context) {
 	// Insert the user into the database
 	_, err = conn.Exec("INSERT INTO users (name, username, email, password, created_at) VALUES ($1, $2, $3, $4, $5)", user.Name, user.Username, user.Email, hashedPassword, time_stamp)
 	if err != nil {
-		c.AbortWithStatusJSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+		c.AbortWithStatusJSON(http.StatusInternalServerError, gin.H{
+			"errorCode": 500,
+			"error":     err.Error(),
+		})
 		return
 	}
 
@@ -68,7 +83,8 @@ func Register(c *gin.Context) {
 	//}
 
 	c.JSON(http.StatusOK, gin.H{
-		"message": "User registered successfully",
+		"errorCode": 200,
+		"message":   "User registered successfully",
 		//"session_id":    sessionID,
 		//"access_token":  accessToken,
 		//"refresh_token": refreshToken,

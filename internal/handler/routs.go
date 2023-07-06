@@ -17,6 +17,8 @@ func Run() {
 	r.GET("/", Home)
 	r.POST("/register", Register)
 	r.POST("/login", Login)
+	r.POST("/editText/:id", EditText)
+	r.POST("/join/:id", Join)
 	r.DELETE("/delete/:id", DeleteRecord)
 	r.NoRoute(func(c *gin.Context) {
 		c.XML(http.StatusOK, gin.H{"code": "works!", "message": "not route!"})

@@ -17,9 +17,8 @@ var DB *gorm.DB
 func Conn() *sql.DB {
 	err := godotenv.Load("../../.env")
 	if err != nil {
-		log.Fatal("Error loading .env file")
+		log.Fatal("Error loading .env file", err.Error())
 	}
-
 	dbHost := os.Getenv("DB_HOST")
 	dbPort := os.Getenv("DB_PORT")
 	dbUser := os.Getenv("DB_USER")

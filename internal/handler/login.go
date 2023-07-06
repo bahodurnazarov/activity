@@ -21,7 +21,10 @@ func Login(c *gin.Context) {
 	var user types.Login
 	err := c.BindJSON(&user)
 	if err != nil {
-		c.JSON(http.StatusBadRequest, gin.H{"error": "Invalid request body"})
+		c.JSON(http.StatusBadRequest, gin.H{
+			"errorCode": 400,
+			"error":     "Invalid request body",
+		})
 		return
 	}
 
@@ -34,14 +37,20 @@ func Login(c *gin.Context) {
 	var hashedPassword string
 	err = row.Scan(&userID, &hashedPassword)
 	if err != nil {
-		c.JSON(http.StatusUnauthorized, gin.H{"error": "Invalid email or password"})
+		c.JSON(http.StatusUnauthorized, gin.H{
+			"errorCode": 401,
+			"error":     "Invalid email or password",
+		})
 		return
 	}
 
 	// Check if the password is correct
 	err = bcrypt.CompareHashAndPassword([]byte(hashedPassword), []byte(user.Password))
 	if err != nil {
-		c.JSON(http.StatusUnauthorized, gin.H{"error": "Invalid username or password"})
+		c.JSON(http.StatusUnauthorized, gin.H{
+			"errorCode": 401,
+			"error":     "Invalid username or password",
+		})
 		return
 	}
 
@@ -56,7 +65,10 @@ func Login(c *gin.Context) {
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)
 	tokenString, err := token.SignedString(types.JwtKey)
 	if err != nil {
-		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to generate JWT token"})
+		c.JSON(http.StatusInternalServerError, gin.H{
+			"errorCode": 500,
+			"error":     "Failed to generate JWT token",
+		})
 		return
 	}
 
@@ -64,10 +76,16 @@ func Login(c *gin.Context) {
 	time_stamp := currentTime.Format("2006.01.02 15:04")
 	_, err = conn.Exec("INSERT INTO users_token (token, created_at, user_id) VALUES ($1, $2, $3)", tokenString, time_stamp, userID)
 	if err != nil {
-		c.AbortWithStatusJSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+		c.AbortWithStatusJSON(http.StatusInternalServerError, gin.H{
+			"errorCode": 500,
+			"error":     err.Error(),
+		})
 		return
 	}
 
 	// Return the JWT token to the client
-	c.JSON(http.StatusOK, gin.H{"token": tokenString})
+	c.JSON(http.StatusOK, gin.H{
+		"errorCode": 200,
+		"token":     tokenString,
+	})
 }

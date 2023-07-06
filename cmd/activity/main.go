@@ -2,7 +2,6 @@ package main
 
 import (
 	"github.com/bahodurnazarov/activity/internal/handler"
-	lg "github.com/bahodurnazarov/activity/pkg/utils"
 )
 
 // @title Todo App API
@@ -16,6 +15,5 @@ import (
 // @in header
 // @name Authorization
 func main() {
-	lg.Errl.Println("Hello")
 	handler.Run()
 }
